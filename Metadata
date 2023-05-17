@@ -1,0 +1,35 @@
+Introduction
+Bellabeat is a high-tech fitness company that manufactures artistic and beautifully designed gadgets for health, wellness, and fitness tracking for women. Some of their
+products include; Bellabeat App, leaf (wrist accessory), Time (Smart Watch), and Bellabeat membership.
+
+Business Problem
+Bellabeat is already successful as a small player and would like to become a large player in the smart devices industry.
+Insights would guide the management team on the best marketing strategy to adopt.
+
+Statement of Business Task
+Analyze smart device data, obtain insights and apply them to one of Bellabeat’s products, and analyze its data to gain valuable insights into how consumers use smart
+devices.
+Key Stakeholders include; The Founders of Bellabeat, and her Marketing Analytics Team.
+
+Data Source
+The data source is the Fitbit Fitness Tracker by Mobius. The original structure of data is long data.
+
+About the Data Dataset Limitation
+The dataset used is the Fitbit Fitness Tracker by Mobius, retrieved from Kaggle. The sample size of 33 smart device users may not represent the behavior of the population
+of smart device users. It only means the minimum sample size to obtain statistical significance. In addition, critical data tables such as; heart rate value, Body mass index
+(BMI), Fat, and weight contain multiple missing data. These limitations may or may not affect the integrity of the analysis results.
+
+Dataset Cleaning and Manipulation
+The first step in cleaning the dataset is to explore it using Excel. The dataset has most of its tables in long data format and a few in wide data format. Taking into
+consideration the business task for descriptive analysis, the goal is to reveal patterns. To do this, the tables need to be merged to simplify the scope of work.
+* The tool selected for further manipulation is Tableau, as it provides a multi-faceted interface to obtain insights from the dataset.
+* Once in Tableau, the dataset is uploaded. The following next steps are taken.;
+* The uploaded dataset tables are joined using the right join command.
+* The next step is to check that data types are correctly placed.
+* Extraction of the data source uploaded is done to ensure new joined dataset is intact and ready for manipulation. (NB: Tableau desktop may not be able to load larger files,
+Tableau Public is preferred if individual CSV files are above 10MB).
+* The next step is to change column names to suit the theme of analysis in order to have clear, readable, and easy-to-understand visuals. Moving forward with creating the frame for visuals, some calculated fields were added to aid the analysis. Some of these are; Variances between tracked distance and actual
+total distance, the Sum of Partially active minutes, and the Sum of Partially active distance.
+Finally, the sheets are named in line with the theme.
+At this point, visual formatting is commenced.
+The distribution of the sheets can be seen in the dashboard below.
